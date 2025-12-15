@@ -1,7 +1,7 @@
-# Super-Resolución de Imágenes 2D mediante Métodos Numéricos
+# Proyecto final 
 
 **Autores:** Renzo Rodriguez, Ronield Sanchez, Valeria Fernandez, Joseph Damian
-**Asignatura:** Métodos Numéricos  
+**Asignatura:** Electivo II de informatica
 **Carrera:** Ingeniería Civil Informática  
 **Universidad:** Universidad Alberto Hurtado  
 
