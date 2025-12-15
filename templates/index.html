@@ -1,0 +1,19 @@
+<h2>Super Resolución</h2>
+<form action="/superresolution" method="POST" enctype="multipart/form-data">
+
+    Imagen: <input type="file" name="image"><br><br>
+
+    Regularización:
+    <select name="regularizer">
+        <option value="l2">L2</option>
+        <option value="huber">Huber</option>
+    </select><br><br>
+
+    λ: <input type="number" step="0.01" name="lambda" value="0.1"><br>
+    δ (Huber): <input type="number" step="0.01" name="delta" value="0.01"><br>
+    Iteraciones: <input type="number" name="iters" value="50"><br>
+    Paso τ: <input type="number" step="0.01" name="lr" value="0.1"><br>
+    Submuestreo s: <input type="number" name="s" value="2"><br><br>
+
+    <button type="submit">Ejecutar</button>
+</form>
